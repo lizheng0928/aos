@@ -5,4 +5,4 @@
 :HL["/aos/playbook-images/docx-image-42.png","image"]
 :HL["/aos/playbook-images/docx-image-43.png","image"]
 :HL["/aos/playbook-images/docx-image-44.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bluebook","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"scenario-6-personal-folder-organization","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"958ZVjUxGhovmBPoCi_h1"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bluebook","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"scenario-6-personal-folder-organization","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"qEekjIqb3c75-TX2GxL-T"}

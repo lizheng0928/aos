@@ -1,7 +1,5 @@
-:HL["/aos/_next/static/chunks/0trhqxcn27y~9.css","style"]
+:HL["/aos/_next/static/chunks/12l8ey0b.~o9c.css","style"]
 :HL["/aos/brand/basil-wordmark.png","image"]
-:HL["/aos/playbook-images/docx-image-22.png","image"]
-:HL["/aos/playbook-images/docx-image-23.png","image"]
 :HL["/aos/playbook-images/docx-image-24.png","image"]
 :HL["/aos/playbook-images/docx-image-25.png","image"]
 :HL["/aos/playbook-images/docx-image-26.png","image"]
@@ -9,4 +7,6 @@
 :HL["/aos/playbook-images/docx-image-28.png","image"]
 :HL["/aos/playbook-images/docx-image-29.png","image"]
 :HL["/aos/playbook-images/docx-image-30.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bluebook","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"scenario-3-data-analysis-insights","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"qEekjIqb3c75-TX2GxL-T"}
+:HL["/aos/playbook-images/docx-image-31.png","image"]
+:HL["/aos/playbook-images/docx-image-32.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"bluebook","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"scenario-3-data-analysis-insights","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"peH8BlAzLhap-ZD9zqlpV"}

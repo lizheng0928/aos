@@ -21,8 +21,10 @@ export function ThemeToggle() {
 
   useEffect(() => {
     const stored = readTheme();
-    setTheme(stored);
     document.documentElement.dataset.theme = stored;
+    const timer = window.setTimeout(() => setTheme(stored), 0);
+
+    return () => window.clearTimeout(timer);
   }, []);
 
   function toggleTheme() {

@@ -3,9 +3,9 @@ import { redirect } from "next/navigation";
 import { playbookSections } from "../playbook-data";
 
 export const metadata: Metadata = {
-  title: "BasilAOS Workbench Playbook",
+  title: "AOS Work Playbook",
   description:
-    "The BasilAOS Workbench Playbook, rebuilt as a section-by-section playbook guide.",
+    "The AOS Work Playbook, rebuilt as a section-by-section playbook guide.",
 };
 
 export default function PlaybookRedirectPage() {

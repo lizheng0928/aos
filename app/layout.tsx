@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { assetPath } from "./site-paths";
+import { playbookTitle } from "./playbook-data";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BasilAOS Workbench Playbook",
-  description: "Scenario co-creation and the BasilAOS Workbench Playbook.",
+  title: playbookTitle,
+  description: playbookTitle,
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: assetPath("/favicon.svg"),
+    shortcut: assetPath("/favicon.svg"),
   },
 };
 

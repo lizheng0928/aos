@@ -1,14 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/aos",
-  assetPrefix: "/aos/",
   output: "export",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
   devIndicators: false,
+  turbopack: {
+    root: process.cwd(),
+  },
 };
 
 export default nextConfig;

@@ -1,4 +1,4 @@
-export const siteBasePath = "/aos";
+export const siteBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 export function assetPath(path: string) {
   return path.startsWith("/") ? `${siteBasePath}${path}` : path;

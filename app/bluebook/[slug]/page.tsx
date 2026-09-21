@@ -21,9 +21,9 @@ export async function generateMetadata({
 
   return {
     title: section
-      ? `${section.title} | BasilAOS Workbench Playbook`
-      : "BasilAOS Workbench Playbook",
-    description: "BasilAOS Workbench Playbook section.",
+      ? `${section.title} | AOS Work Playbook`
+      : "AOS Work Playbook",
+    description: "AOS Work Playbook section.",
   };
 }
 

@@ -86,8 +86,17 @@ try {
   }
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto(base + "/");
-  assert.equal(await page.locator("h1").textContent(), "BasilAOS AOS Work Playbook (English Release)");
-  assert.equal(await page.locator(".release-contents a").count(), 29);
+  assert.equal(await page.locator("h1").textContent(), "AOS Work Playbook");
+  assert.equal(await page.locator(".track-card").count(), 4);
+  assert.equal(await page.locator(".quick-card").count(), 6);
+  assert.equal(await page.locator(".level-card").count(), 4);
+  assert.equal(await page.locator(".release-index").count(), 0);
+  for (const href of await page.locator("a[href]").evaluateAll(links => links.map(link => link.href))) {
+    const url = new URL(href);
+    if (url.origin === new URL(base).origin && !url.hash) {
+      assert.equal((await context.request.get(href)).status(), 200, href);
+    }
+  }
   assert(!/\p{Script=Han}/u.test(await page.locator("body").innerText()));
   await page.screenshot({ path: "qa/screenshots/home.png" });
   await page.goto(`${base}/bluebook/${manifest.sections[28].id}/`);
